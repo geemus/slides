@@ -14,12 +14,10 @@
     Successfully installed fog-0.0.43
     $ fog
     To run as 'default', add the following to ~/.fog
-
     :default:
       :aws_access_key_id:     INTENTIONALLY_LEFT_BLANK
       :aws_secret_access_key: INTENTIONALLY_LEFT_BLANK
       [...]
-
     $ fog
     Welcome to fog interactive!
     Your 'default' configuration provides access to AWS.
@@ -29,8 +27,7 @@
 # Meat! #
 
     $ server = AWS.servers.create
-    ArgumentError: image_id is required for this operation
-    [...]
+    ArgumentError: image_id is required for this operation [...]
     $ server = AWS.servers.create(:image_id => 'ami-5ee70037')
       <Fog::AWS::EC2::Server
         id="i-3bb35c50",
@@ -44,13 +41,9 @@
 
 # Potatoes! #
     $ directory = AWS.directories.create(:name => 'bucket_name')
-    <Fog::AWS::S3::Directory
-     [...]
-    >
+    <Fog::AWS::S3::Directory [...]>
     $ directory.files.create(:key => 'object_name', :body => data)
-    <Fog::AWS::S3::File
-      [...]
-    >
+    <Fog::AWS::S3::File [...]>
 
 !SLIDE commandline incremental
 
@@ -59,13 +52,9 @@
     $ config = {:flavor_id => 1, :image_id => 3, :name => 'name'}
     {:flavor_id=>1, :image_id=>3, :name=>'name'}
     $ Rackspace.servers.create(config)
-    <Fog::Rackspace::Servers::Server
-      [...]
-    >
+    <Fog::Rackspace::Servers::Server [...]>
     $ Slicehost.servers.create(config)
-    <Fog::Slicehost::Server
-      [...]
-    >
+    <Fog::Slicehost::Server [...]>
 
 !SLIDE bullets incremental
 
