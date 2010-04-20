@@ -65,10 +65,16 @@
   `AWS[:ec2].describe_instances`
 * `Fog.mock!` built in mocking
 
-!SLIDE bullets
-# moar plz kthxbai #
+!SLIDE commandline incremental
 
-* :install => `sudo gem install fog`
-* :hack => `http://github.com/geemus/fog`
-* :follow => `http://twitter.com/geemus`
-* :questions => `Time.now`
+# Frosting! #
+
+    $ ssh = Fog::SSH.new(ip, username, :password => password)
+    <Fog::SSH [...]>
+    $ ssh.run(['bootstrap', 'commands'])
+    [
+      { :command => 'bootstrap',
+        :data => [...] },
+      { :command => 'commands',
+        :data => [...] }
+    ]
