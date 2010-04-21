@@ -1,5 +1,5 @@
 !SLIDE small
-# moar plz kthxbai #
+# Check Please! #
 
     @@@ ruby
     {

@@ -1,5 +1,5 @@
 !SLIDE smaller
-# Digestif #
+# Digestif! #
 
     @@@ ruby
     ssh.run([
@@ -13,3 +13,20 @@
       'sudo gem install chef'
 
     ])
+
+!SLIDE bullets
+
+* `chef \chef\, n.`
+* `configuration management`
+* `systems integration`
+* `see also` *`configure your new toys`*
+
+!SLIDE
+
+# Wafer-Thin Mint! #
+
+    @@@ ruby
+    '' >> /etc/chef/solo.rb
+    {} >> /etc/chef/node.json
+    chef-solo
+
