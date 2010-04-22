@@ -11,7 +11,7 @@
 # Getting Started #
 
     $ sudo gem install fog
-    Successfully installed fog-0.0.43
+    Successfully installed fog-0.0.75
     $ fog
     To run as 'default', add the following to ~/.fog
     :default:

@@ -21,12 +21,17 @@
 * `systems integration`
 * `see also` *`configure your new toys`*
 
-!SLIDE
+!SLIDE smaller
 
 # Wafer-Thin Mint! #
 
     @@@ ruby
-    '' >> /etc/chef/solo.rb
-    {} >> /etc/chef/node.json
-    chef-solo
+    ssh.run([
 
+      '"misc :config" >> /etc/chef/solo.rb',
+
+      '{"node": "specific"} >> /etc/chef/node.json',
+
+      'chef-solo'
+
+    ])
