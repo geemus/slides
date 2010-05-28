@@ -1,0 +1,5 @@
+various slide decks
+
+== fog_lightning
+
+Lightning talk length slide deck for fog.
