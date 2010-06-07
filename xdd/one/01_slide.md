@@ -7,6 +7,11 @@
 * less if it works
 * more how it works
 
+!SLIDE
+# Level Up!
+
+when good enough isn't
+
 <!--
   NOTES
 
@@ -17,4 +22,6 @@
   Make your own tools.
 
   Take notes when you see weird stuff, its too easy to forget to revisit.
+
+  It is difficult to expand and get better if you accept things as good enough, but hard to get things done if you don't.
 -->
