@@ -24,4 +24,6 @@ when good enough isn't
   Take notes when you see weird stuff, its too easy to forget to revisit.
 
   It is difficult to expand and get better if you accept things as good enough, but hard to get things done if you don't.
+
+  Libraries as expert systems
 -->
