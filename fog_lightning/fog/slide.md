@@ -11,7 +11,7 @@
 # Getting Started #
 
     $ sudo gem install fog
-    Successfully installed fog-0.0.75
+    Successfully installed fog-0.2.14
     $ fog
     To run as 'default', add the following to ~/.fog
     :default:
@@ -67,7 +67,7 @@
 
 !SLIDE commandline incremental
 
-# Frosting! #
+<!-- # Frosting! #
 
     $ ssh = Fog::SSH.new(ip, username, :password => password)
     <Fog::SSH [...]>
@@ -77,4 +77,4 @@
         :data => [...] },
       { :command => 'commands',
         :data => [...] }
-    ]
+    ] -->
