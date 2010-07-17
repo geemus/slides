@@ -1,5 +1,6 @@
-!SLIDE
-# fog in five #
+!SLIDE center
+
+![fog_in_five](fog.png)
 
 !SLIDE bullets
 
