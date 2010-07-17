@@ -50,11 +50,9 @@
 
 # Fries! #
 
-    $ config = {:flavor_id => 1, :image_id => 3, :name => 'name'}
-    {:flavor_id=>1, :image_id=>3, :name=>'name'}
-    $ Rackspace.servers.create(config)
+    $ Rackspace.servers.create(:image_id=>3, :name=>'name')
     <Fog::Rackspace::Servers::Server [...]>
-    $ Slicehost.servers.create(config)
+    $ Slicehost.servers.create(:image_id=>3, :name=>'name')
     <Fog::Slicehost::Server [...]>
 
 !SLIDE bullets incremental
